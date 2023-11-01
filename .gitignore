@@ -1,1 +1,40 @@
+# Ignore node_modules directory
 node_modules/
+
+# Ignore compiled output
+dist/
+out/
+build/
+
+# Ignore log files
+*.log
+log/
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore package-lock files
+package-lock.json
+yarn.lock
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore test and testing data
+__tests__/
+*.test.js
+*.spec.js
+test/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore dependency directories
+dependencies/
